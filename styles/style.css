@@ -1,6 +1,7 @@
 header{ 
     display: flex;
     justify-content: space-between;
+    position: static;
 }
 
 header img{
@@ -25,10 +26,48 @@ button{
     float: right; 
     height: 34px;
 }
-
-section{
-    float: right;
-    width: 70%;
+iframe{
+    padding-top: 50px;   
 }
 
+#tumb{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
 
+body{
+    padding-right: 70px;
+    padding-left: 70px;
+    color: #101010;
+}
+
+aside{
+    float: right;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+}
+aside p{
+    margin: 5px;
+    max-width: 180px;
+}
+aside div{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+aside div img{
+    padding-top: 10px;
+    width: 153px;
+    height: 86px;
+}
+ iframe {
+     display: block;
+     margin: auto;
+     width: 90%;
+ }
