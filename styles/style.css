@@ -25,6 +25,10 @@ header img{
 button{
     float: right; 
     height: 34px;
+    border-width: 0px;
+}
+#SearchBtn{
+    border-width: 2px;
 }
 iframe{
     padding-top: 50px;   
@@ -38,7 +42,7 @@ iframe{
 body{
     padding-right: 70px;
     padding-left: 70px;
-    color: #101010;
+    color: #515151;
 }
 
 aside{
@@ -65,9 +69,41 @@ aside div img{
     padding-top: 10px;
     width: 153px;
     height: 86px;
+    cursor:pointer;
 }
  iframe {
      display: block;
      margin: auto;
-     width: 90%;
+     width: 800px;
+     height: 600px;
  }
+
+
+.comments{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #515151;
+    font-size: 15px;
+    
+}
+#ComentFromUser{
+    display: flex;
+    flex-direction: column;
+}
+section img{
+    width: 40px;
+    height: 40px;    
+    cursor: pointer;
+}
+
+#likes{
+    display: flex;
+    flex-direction: row;
+}
+
+#likes img{
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+}
