@@ -8,4 +8,20 @@ header img{
     height: 20px;
     margin-left: 15px;
 }
+#SearchBar{
+    display: grid;
+    width: 500px;
+    grid-template-columns: 4fr 1fr;
 
+}
+#SearchBar input{   
+    height: 100%;
+    padding: 0px;
+   
+}
+button{
+    height: 30px;
+}
+#main{
+    
+}
