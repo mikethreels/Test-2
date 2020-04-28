@@ -9,3 +9,21 @@ header img{
     margin-left: 15px;
 }
 
+#SearchBar{
+    display: block;
+    min-width: 500px;
+}
+
+#SearchBar input{
+    display: block;
+    min-width: 80%;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+button{
+    margin: 0%;
+    padding: 0px;
+}
+
