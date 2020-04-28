@@ -14,15 +14,21 @@ header img{
     grid-template-columns: 4fr 1fr;
     height: 100%
 }
+
 #SearchBar input{   
     height: 100%;
     padding: 0px;
     height: 30px;
 }
+
 button{
     float: right; 
     height: 34px;
 }
-#main{
-    
+
+section{
+    float: right;
+    width: 70%;
 }
+
+
