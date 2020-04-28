@@ -24,6 +24,13 @@ button{
     height: 34px;
 }
 iframe{
-    padding-top: 50px;
-    
+    padding-top: 50px;   
+}
+aside{
+    float: right;
+    width: 25%;
+}
+#tumb{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
 }
